@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Ubuntu:wght@500&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  /* color: #fff; */
+  font-family: "Ubuntu", sans-serif;
+}
+
+em {
+  font-weight: 500;
+  font-size: large;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+h3 {
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
+  color: #8f8f8f;
+  font-weight: 500;
+}
+.container-fluid {
+  padding: 5% 20%;
+  position: relative;
+  z-index: 1;
+  /* align-items: center; */
+}
+/* /////////////////////////////container-fluid////////////////////// */
+.container-fluid{
+  padding:5% 15% 15% ;
+}
+/******************************* NAVBAR LOGO ************************************/
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.nav-item {
+  padding: 0 1.5rem;
+}
+
+.navbar-nav {
+  /* font-size: 1.2rem; */
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+}
+/* ********************************BUTTON************************************* */
+
+.btn-dark {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+.btn-dark:hover {
+  color: #000;
+  background-color: white;
+  border-color: #fff;
+}
+
+.btn {
+  padding: 2% 5%;
+  margin-top: 5%;
+  font-size: 1.5rem;
+}
+.apple-logo-btn {
+  margin: 5% 3% 5% 0;
+}
+.logo-margin-left {
+  margin-right: 5px;
+}
+
+/***************************title**************************************/
+.title-img {
+  /* margin-top: 7%; */
+  /* margin-bottom: -100px; */
+  transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+  /* transition: all 8s ease-in-out; */
+  position:absolute;
+  right: 25%;
+  /* width:60%; */
+  /* top: 250px;
+  right: 500px; */
+}
+
+/* *****************************features************************************* */
+.fa-check-circle {
+  color: #ff4c68;
+  transition: all 0.5s ease-in;
+  padding-top: 10%;
+}
+.fa-check-circle:hover {
+  color: #ff0026;
+  transition: all 0.5s ease-in;
+}
+.fa-bullseye {
+  color: #ff4c68;
+  padding-top: 10%;
+  transition: all 0.5s ease-in;
+}
+.fa-bullseye:hover {
+  color: #ff0026;
+  transition: all 0.5s ease-in;
+}
+.fa-heart {
+  padding-top: 10%;
+  color: #ff4c68;
+  transition: all 0.5s ease-in;
+}
+.fa-heart:hover {
+  color: #ff0026;
+  transition: all 0.5s ease-in;
+}
+.feature-img-position {
+  /* border: 2px solid red;  */
+  margin: 3% auto;
+}
+#features {
+  /* height: 50vh; */
+  /* margin-top: 5%;
+  margin-bottom: 5%; */
+  background-color: white;
+  position:relative;
+  z-index: 1;
+
+}
+.feature-box{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.features-text {
+  text-align: center;
+  /* display: flex;
+  justify-content: space-evenly ; */
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 7% 15%;
+}
+.feature-img-margin {
+  margin-bottom: 1.5rem;
+}
+
+
+/* **********************************testiminials********************************************/
+#testimonials {
+  text-align: center;
+  /* border: 2px solid red; */
+  background-color: #ff4c68;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+}
+
+.pebbles-img {
+  border-radius: 50%;
+  width: 20%;
+  margin: 20px;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 50%;
+  border-radius: 50%;
+  width: 20%;
+  margin: 20px;
+}
+/* //////////////////////////////////PRESS///////////////////////////////////// */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0 20px 0 20px;
+}
+#testimonial-slide {
+  padding: 7% 15%;
+}
+
+/* ////////////////////////////CARD PRICING ////////////////////////////// */
+.btn-m:hover {
+  border: 1px solid black;
+}
+.btn-l:hover {
+  border: 1px solid black;
+}
+
+/* ///////////////////////////////media query//////////////////////////////// */
+@media (max-width:1200px){
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    margin: 7% auto;
+    padding-bottom:0;
+  }
+  .container-fluid{
+    padding-bottom: 2%;
+    text-align: center;
+  }
+
+}
+@media(min-width:990px){
+  .fluid-end{
+    margin: 0 auto;
+    padding: ;
+  }
+}
+/* ////////////////////////////////footer///////////////////////////////////// */
+.container-fluid-end{
+  background-color: #ff4c68;
+  padding: 4% 2%;
+  text-align: center;
+color: #FFF;
+}
+
+/* ////////////////////////////////COLOR//////////////////////////////////////// */
+#testimonial-slide{
+  color: #fff;
+}
+.title-container{
+  color: #fff;
+}
+
+/* ////////////////////////////////FOOTER//////////////////////////////////////// */
+footer{
+  background-color: white;
+  padding: 3% 2%;
+}
+
+.margin-footer1, .margin-footer2, .margin-footer3, .margin-footer4{
+padding: 1%;
+font-size: 1.5rem;
+cursor: pointer;
+}
+.margin-footer4:hover{
+    color: #ff4c68;
+  }
+
+  .margin-footer3:hover{
+    color: deeppink;
+  }
+
+  .margin-footer2:hover{
+    color: blue;
+  }
+
+  .margin-footer1:hover{
+    color: deepskyblue;
+  }
